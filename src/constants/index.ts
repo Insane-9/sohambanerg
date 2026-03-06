@@ -31,6 +31,9 @@ import {
   project7,
   project8,
   project9,
+  project10,
+  project11,
+  project12,
   user1,
   user2,
   user3,
@@ -62,20 +65,32 @@ export const NAV_LINKS = [
 // Services
 export const SERVICES = [
   {
-    title: "Full Stack Solana Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "Frontend Web3 Developer",
-    icon: mobile,
+    title: "Full Stack Gen-AI Developer",
+    icon: creator,
   },
   {
-    title: "Smart Contract Engineer",
+    title: "MERN Stack Developer",
     icon: backend,
   },
   {
-    title: "Solana Backend Developer",
-    icon: creator,
+    title: "PERN Stack Developer",
+    icon: backend,
+  },
+  {
+    title: "AI Backend Developer",
+    icon: backend,
+  },
+  {
+    title: "AI Frontend Developer",
+    icon: mobile,
+  },
+  {
+    title: "Full Stack Web3 (Solana) Developer",
+    icon: web,
   },
 ] as const;
 
@@ -138,13 +153,16 @@ export const TECHNOLOGIES = [
 // Experiences
 export const EXPERIENCES = [
   {
-    title: "Research Assistant – Web3 & Blockchain Architecture",
+    title: "Research Assistant – Web3, AI & Full-Stack Software Development",
     company_name: "National Institute of Technology Durgapur",
     icon: starbucks,
     iconBg: "#383E56",
     date: "September 2024 - June 2025",
     points: [
-      "Architected a consortium blockchain for welfare asset tracking (Patent Filed) using NFT-based immutable delivery logic.","Developed 'FastSecFIR,' a Layer 2 scaling framework using ZK-Rollups and IPFS to optimize on-chain data storage.","Implemented Zero-Knowledge Proof (ZKP) logic for confidential claim validation and transaction batching.","Designed the 'Beneficiary Verification Code' within the smart contract layer to automate eligibility checks and prevent fraud",
+      "Conducted full-stack AI + Web3 software development and research for a consortium blockchain welfare tracking solution (Patent Filed), including smart contract design, backend APIs, and dashboard UX.",
+      "Architected a Layer 2 scaling framework (FastSecFIR) using ZK-Rollups and IPFS to optimize on-chain storage and improve throughput for secure data sharing.",
+      "Implemented Zero-Knowledge Proof (ZKP) validation and batching logic to support confidential claim verification while maintaining auditability.",
+      "Designed the Beneficiary Verification Code within smart contracts to automate eligibility checks and prevent fraud, aligning research outcomes with production-grade deployment.",
     ],
   },
   {
@@ -154,7 +172,9 @@ export const EXPERIENCES = [
     iconBg: "#E6DEDD",
     date: "January 2024 - June 2024",
     points: [
-      "Built the official company website and integrated an AI-driven chatbot MVP using React, WebGL, and LLM APIs.","Synchronized frontend state with Unity 3D/C# animations to deliver an interactive, high-performance user experience.","Engineered secure REST API pipelines to fetch real-time game data, ensuring low-latency character interactions.",
+      "Led full-stack Web3 + AI development, building the official company site and integrating an AI chatbot MVP using React, WebGL, and LLM APIs.",
+      "Delivered an interactive, high-performance UX by syncing frontend state with Unity 3D/C# animations and streaming game telemetry.",
+      "Built secure REST API pipelines for real-time game data, empowering low-latency character interactions and scalable multiplayer experiences.",
     ],
   },
   {
@@ -176,6 +196,95 @@ export const TESTIMONIALS = [
 
 // Projects
 export const PROJECTS = [
+  {
+    name: "AI Resume Analyzer",
+    description:
+      "An AI-powered resume analysis app built with React and Puter.js. Upload resumes, create job listings, and get automatic evaluation + matching via AI-driven ATS scoring.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ai",
+        color: "green-text-gradient",
+      },
+      {
+        name: "puterjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "resume",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project12,
+    source_code_link: "https://github.com/Insane-9/ai-resume-analyzer",
+  },
+  {
+    name: "Gemini C Clone",
+    description:
+      "A Google Gemini-style generative AI chat app built in React using the Gemini API. Includes a conversational UI, prompt saving sidebar, typing animation, preloader, and responsive design. Deployed on Vercel.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ai",
+        color: "green-text-gradient",
+      },
+      {
+        name: "gemini",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "llm",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "vercel",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project11,
+    source_code_link: "https://github.com/Insane-9/Gemini-C",
+    live_site_link: "https://gemini-c-soham.vercel.app/",
+  },
+  {
+    name: "SimpleComm",
+    description:
+      "A full-stack MERN commerce application with add-to-cart, checkout payment flow, and an admin dashboard for product management. Built while learning Node.js + Express, REST APIs, MongoDB, authentication/authorization, error handling, environment configuration, and backend best practices.",
+    tags: [
+      {
+        name: "mern",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "e-commerce",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project10,
+    source_code_link: "https://github.com/Insane-9/SimpleComm-by-Soham",
+    live_site_link: "https://simplecomm-by-soham.onrender.com/",
+  },
   {
     name: "SolCAST DApp",
     description:
@@ -383,7 +492,6 @@ export const PROJECTS = [
     ],
     image: project9,
     source_code_link: "https://github.com/Insane-9/guessing_game",
-
   },
 ] as const;
 

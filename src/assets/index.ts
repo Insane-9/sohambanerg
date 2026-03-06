@@ -38,6 +38,9 @@ import project6 from "./projects/project6.png";
 import project7 from "./projects/project7.png";
 import project8 from "./projects/project8.png";
 import project9 from "./projects/project9.png";
+import project10 from "./projects/project10.png";
+import project11 from "./projects/project11.png";
+import project12 from "./projects/project12.png";
 
 import user1 from "./testimonials/user1.jpg";
 import user2 from "./testimonials/user2.jpg";
@@ -83,6 +86,9 @@ export {
   project7,
   project8,
   project9,
+  project10,
+  project11,
+  project12,
   user1,
   user2,
   user3,

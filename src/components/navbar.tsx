@@ -51,7 +51,7 @@ export const Navbar = ({ hide }: NavbarProps) => {
         >
           <img src={logo} alt="Logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Soham Banerjee&nbsp;<span className="sm:block hidden">| Full Stack Solana Developer</span>
+            Soham Banerjee&nbsp;<span className="sm:block hidden">| Backend · Frontend · (MERN/PERN) · Gen AI · Web3</span>
           </p>
         </Link>
 
